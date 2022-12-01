@@ -4,7 +4,7 @@ function insert(num) {
 }
 
 function clean() {
-    document.getElementById('result').innerHTML = '0'
+    document.getElementById('result').innerHTML = ''
 }
 
 function back() {

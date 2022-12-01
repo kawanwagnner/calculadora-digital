@@ -35,7 +35,10 @@ h2 {
 
 .subtitulo {
     color: #fff;
+    margin-left: 10%;
     margin-bottom: 10px;
+    text-align: left;
+
 }
 
 #rodape {
@@ -83,6 +86,10 @@ table {
 
 .btn-number:hover {
     background-color: #000;
+}
+
+.btn-number:hover::after {
+    background-color: #1f1f1f;
 }
 
 #result {
