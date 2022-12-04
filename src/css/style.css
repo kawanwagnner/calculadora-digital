@@ -86,10 +86,7 @@ table {
 
 .btn-number:hover {
     background-color: #000;
-}
-
-.btn-number:hover::after {
-    background-color: #1f1f1f;
+    transition: .5s;
 }
 
 #result {
